@@ -1,11 +1,15 @@
 ## Документация Google Map API
 
 ### Метод POST
+
 Запрос:
+
 Base URL: https://rahulshettyacademy.com
 Resource: /maps/api/place/add/json
 Параметр для всех запросов: key=qaclick123
+
 Body:
+'''
 { 
 "location": { 
 "lat": -38.383494, 
@@ -21,7 +25,7 @@ Body:
  "website": "http://google.com", 
 "language": "French-IN"
  }
- 
+ '''
  Ответ:
 Статус: 200. Запрос прошел успешно
 {
